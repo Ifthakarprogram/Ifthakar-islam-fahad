@@ -1,11 +1,32 @@
-div{
+.practice{
     background-color:aqua;
     padding: 10px;
     margin: 20px;
     border-radius: 10px;
     font-size:larger;
     text-align:justify;
-    border-top: 20px solid blueviolet;
+    border-top: 20px solid blueviolet;}  
 
-    
+
+
+.row{
+    height: 400px;
+    display: flex;
+    gap: 5px;
+    margin-bottom: 5px;
+}
+.row img{
+    width: 100%;
+    height: 100%;
+}
+.two-image{
+    height: calc((100% - 1%)/2)
+}
+.row div{
+    flex: 1px;
+}
+.grid-picture{
+    display:grid;
+    grid-template-columns: repeat(2,1fr);
+    gap: 5px;
 }
