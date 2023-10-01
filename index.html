@@ -64,6 +64,65 @@
        </div>
     </section>
   </main>
-    
+   <section>
+    <h1 class="grid-layout">Grid layout</h1>
+    <style>
+        .grid-layout{
+            font-size: 40px;
+            text-align: center;
+        }
+        .grid-container{
+            display: grid;
+            grid-template-columns: repeat(12,1fr);
+            grid-template-rows: repeat(12,1fr);
+            height: 98vh;
+            gap: 5px;
+            
+        }
+       .header{
+        background-color: gray;
+        grid-column: 1/13;
+       }
+       .nav{
+        background-color: steelblue;
+        grid-column: 1/4;
+        grid-row: 2/12;
+       }
+       .title{
+        background-color: orange;
+        grid-column: 4/13;
+       }
+       .article-1{
+        background-color: rgb(107, 146, 0);
+        grid-column: 4/7;
+        grid-row: 3/12;
+       }
+       .article-2{
+        background-color: rgb(107, 146, 0);
+        grid-column: 7/10;
+        grid-row: 3/12;
+       }
+       .article-3{
+        background-color: rgb(107, 146, 0);
+        grid-column:10/13;
+        grid-row: 3/12;
+       }
+       .footer{
+        background-color: red;
+        grid-column: 1/13;
+       }
+    </style>
+</head>
+<body>
+ <div class="grid-container">
+    <div class="header"> Header</div>
+    <div class="nav">Nav</div>
+    <div class="title">Title</div>
+    <div class="article-1">Article-1</div>
+    <div class="article-2">Article-2</div>
+    <div class="article-3">Article-3</div>
+    <div class="footer">Footer</div>
+ </div>
+   </section> 
 </body>
 </html>
