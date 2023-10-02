@@ -1,0 +1,96 @@
+@media screen and (max-width:620px){
+    .nav-container{
+        
+       flex-direction: column;
+       
+       
+    }
+    .nav-item-container {
+        flex-direction: column;
+        margin-bottom: 0px;
+        width: 100%;
+        gap: 6px;
+        
+        
+       }
+       .login-button{
+        margin-top: 10px;
+        width: 100%;
+        text-align: center;
+       
+       }
+       .logo-container{
+        justify-content: center;
+       }
+       .nav-section{
+        padding: 15px 0px;
+       }
+
+       .banner-container{
+       flex-direction: column;
+       }
+       .banner-content{
+        width: 100%;
+        
+       
+       }
+       .banner-image{
+        width: 100%;
+        
+     }
+     .banner-content h1{
+       text-align: center;
+    }
+    .banner-content h2{
+        text-align: center;
+    }
+    .icon-style{
+        text-align: center;
+    }
+    .button-style{
+        justify-content: center;
+        margin-bottom: 25px;
+    }
+    .product-container{
+        
+        grid-template-columns: 1fr;
+        padding: 0px 20px;
+       
+       
+      }
+      .offer-container{
+        flex-direction:column;  
+    }
+    .offer-img{
+        width: 100%;
+        
+    }
+    .offer-content{
+        width: 100%;
+        text-align: center;
+        margin-top: 15px;
+        
+    }
+    .offer-content h1{
+       padding: 0px 15px;
+      }
+    .offer-content p{
+       padding: 0px 15px;
+      }
+      .offer-img .div-30{
+        width: 20px;
+        height:20px;
+               
+    }
+
+}
+@media  screen and (min-width:619px) and (max-width:900px) {
+    .product-container{
+        
+        grid-template-columns: repeat(2 ,1fr);
+        padding: 0px 20px;
+       
+       
+      }
+    
+}
