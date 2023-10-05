@@ -410,3 +410,267 @@
     </footer>
 </body>
 </html>
+
+<!-- website -->
+<!DOCTYPE html>
+<html lang="en" data-theme="cupcake">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>DaisyUi Practice</title>
+    <link rel="shortcut icon" href="./images/logo.png" type="image/x-icon">
+
+    
+    <link href="https://cdn.jsdelivr.net/npm/daisyui@3.8.3/dist/full.css" rel="stylesheet" type="text/css" />
+    <script src="https://cdn.tailwindcss.com"></script>
+    
+    
+</head>
+<body class="">
+    
+    <header >
+         <!-- nav section start -->
+         <div class="navbar bg-base-100">
+            <div class="flex-1">
+              <a class="btn btn-ghost normal-case text-xl">daisyMen</a>
+            </div>
+            <div class="flex-none">
+              <div class="dropdown dropdown-end">
+                <label tabindex="0" class="btn btn-ghost btn-circle">
+                  <div class="indicator">
+                    <svg xmlns="" class="h-5 w-5" fill="none" viewBox="0 0 24 24" stroke="currentColor"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M3 3h2l.4 2M7 13h10l4-8H5.4M7 13L5.4 5M7 13l-2.293 2.293c-.63.63-.184 1.707.707 1.707H17m0 0a2 2 0 100 4 2 2 0 000-4zm-8 2a2 2 0 11-4 0 2 2 0 014 0z" /></svg>
+                    <span class="badge badge-sm indicator-item">8</span>
+                  </div>
+                </label>
+                <div tabindex="0" class="mt-3 z-[1] card card-compact dropdown-content w-52 bg-base-100 shadow">
+                  <div class="card-body">
+                    <span class="font-bold text-lg">8 Items</span>
+                    <span class="text-info">Subtotal: $999</span>
+                    <div class="card-actions">
+                      <button class="btn btn-primary btn-block">View cart</button>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="dropdown dropdown-end">
+                <label tabindex="0" class="btn btn-ghost btn-circle avatar">
+                  <div class="w-10 rounded-full">
+                    <img src="/images/avatar.png" />
+                  </div>
+                </label>
+                <ul tabindex="0" class="menu menu-sm dropdown-content mt-3 z-[1] p-2 shadow bg-base-100 rounded-box w-52">
+                  <li>
+                    <a class="justify-between">
+                      Profile
+                      <span class="badge">New</span>
+                    </a>
+                  </li>
+                  <li><a>Settings</a></li>
+                  <li><a>Logout</a></li>
+                </ul>
+              </div>
+            </div>
+          </div>
+          <!-- nav section end -->
+    </header>
+      <!-- banner hero section start -->
+      <section>
+        <div class="hero min-h-[calc(100vh-66px)] " style="background-image: url(images/yellow-bg.jpg);">
+          <div class="hero-overlay bg-opacity-60"></div>
+          <div class="hero-content text-center text-neutral-content">
+            <div class="max-w-md">
+              <h1 class="mb-5 text-5xl font-bold ">Welcome To DaisyMan</h1>
+              <p class="mb-5">Your one-stop destination for all your fashion needs. At DaisyMan, we believe that style is a reflection of your unique personality and our mission is to provide you with a diverse and trendy collection.</p>
+              <button class="btn bg-white" >Shop Now</button>
+            </div>
+          </div>
+        </div>
+      </section>
+      <!-- banner hero section end -->
+    <main>
+          <!-- card section start -->
+          <section class="container mx-auto my-16">
+            <div class="text-center">
+              <h1 class="text-4xl font-bold">Huge Collection</h1>
+              <p class="text-base mt-2">Browse from a various collections</p>
+            </div>
+            
+            <div class="grid md:grid-cols-2 lg:grid-cols-3 justify-items-center mt-14 gap-6 px-4">
+               <!-- card-1 -->
+              <div class="card  bg-base-100 shadow-xl image-full">
+                <figure><img src="/images/shoes.avif" alt="Shoes" /></figure>
+                <div class="card-body">
+                  <h2 class="card-title">Shoes!</h2>
+                  <p>At DaisyMan, we believe that style is a reflection of your unique personality and our mission is to provide you with a diverse and trendy collection.</p>
+                  <div class="card-actions justify-end">
+                    <button class="btn ">Buy Now</button>
+                  </div>
+                </div>
+              </div>
+               <!-- card-2 -->
+              <div class="card  bg-base-100 shadow-xl image-full">
+                <figure><img src="/images/hoodies.avif" alt="Shoes" /></figure>
+                <div class="card-body">
+                  <h2 class="card-title">Clothes!</h2>
+                  <p>At DaisyMan, we believe that style is a reflection of your unique personality and our mission is to provide you with a diverse and trendy collection.</p>
+                  <div class="card-actions justify-end">
+                    <button class="btn ">Buy Now</button>
+                  </div>
+                </div>
+              </div>
+               <!-- card-3 -->
+              <div class="card  bg-base-100 shadow-xl image-full">
+                <figure><img src="/images/perfume.avif" alt="Shoes" /></figure>
+                <div class="card-body">
+                  <h2 class="card-title">Perfumes!</h2>
+                  <p>At DaisyMan, we believe that style is a reflection of your unique personality and our mission is to provide you with a diverse and trendy collection.</p>
+                  <div class="card-actions justify-end">
+                    <button class="btn ">Buy Now</button>
+                  </div>
+                </div>
+              </div>
+
+            </div>
+          </section>
+          <!-- card section end -->
+          <!-- featured section start -->
+          <section class="container mx-auto my-16 flex items-center gap-10 lg:gap-16 px-4 flex-col md:flex-row ">
+            <div class="flex-1">
+               <h1 class="text-4xl mb-4 text-center md:text-start">Easy Purchase</h1>
+               <p class="text-base text-center md:text-start">we believe that style is a reflection of your unique personality and our mission is to provide you with a diverse and trendy collection.Our mission is to provide you with a diverse and trendy collection. Lorem ipsum dolor sit amet consectetur adipisicing elit. Ab, rerum!and trendy collection. Lorem ipsum dolor sit amet consectetur adipisicing elit. Ab, rerum!</p>
+            </div>
+            <div class="flex-1">
+               <img src="./images/easy-purchase.avif" alt="">
+            </div>
+          </section>
+          <!-- featured section end -->
+          <!-- top features section start -->
+          <section class="container mx-auto my-16">
+            <div class="text-center">
+              <h1 class="text-4xl font-bold">Huge Collection</h1>
+              <p class="text-base mt-2">Browse from a various collections</p>
+            </div>
+
+            
+            <div class="mt-16 grid gap-6 px-4 md:grid-cols-2 lg:grid-cols-4 ">
+
+              <!-- card-1 -->
+            <div class="card bg-base-100 shadow-xl">
+              <figure><img src=" ./images/elegant-businessman-attire-hangs-modern-closet-generated-by-ai_188544-15312.avif" alt="Shoes" /></figure>
+              <div class="card-body">
+                <h2 class="card-title">Formal Shirt</h2>
+                <p>Our mission is to provide you with a diverse and trendy collection.</p>
+                <div class="card-actions justify-end">
+                  <button class="btn">Buy Now</button>
+                </div>
+              </div>
+            </div>
+              <!-- card-1 -->
+            <div class="card bg-base-100 shadow-xl">
+              <figure><img src="/images/shiny-black-leather-shoes-exude-modern-luxury-generated-by-ai_188544-36154.avif" alt="Shoes" /></figure>
+              <div class="card-body">
+                <h2 class="card-title">Formal Shoe</h2>
+                <p>Our mission is to provide you with a diverse and trendy collection.</p>
+                <div class="card-actions justify-end">
+                  <button class="btn">Buy Now</button>
+                </div>
+              </div>
+            </div>
+              <!-- card-1 -->
+            <div class="card bg-base-100 shadow-xl">
+              <figure><img src="images/blue-yellow-t-shirt-wooden-hanger-generated-by-ai_188544-42185.avif" alt="Shoes" /></figure>
+              <div class="card-body">
+                <h2 class="card-title">Trendy T-Shirt</h2>
+                <p>Our mission is to provide you with a diverse and trendy collection.</p>
+                <div class="card-actions justify-end">
+                  <button class="btn">Buy Now</button>
+                </div>
+              </div>
+            </div>
+              <!-- card-1 -->
+            <div class="card bg-base-100 shadow-xl">
+              <figure><img src="/images/elegant-businessman-shirt-wooden-desk-stack-generated-by-ai_188544-34678.avif" alt="Shoes" /></figure>
+              <div class="card-body">
+                <h2 class="card-title">Casual Shirt</h2>
+                <p>Our mission is to provide you with a diverse and trendy collection.</p>
+                <div class="card-actions justify-end">
+                  <button class="btn">Buy Now</button>
+                </div>
+              </div>
+            </div>
+             
+             
+           
+            </div>
+
+          </section>
+          <!-- top features section end -->
+          <!-- faq section start -->
+          <section class="container mx-auto my-16 space-y-5 px-4">
+
+            <div class="text-center mb-16">
+              <h1 class="text-4xl font-bold">Huge Collection</h1>
+              <p class="text-base mt-2">Browse from a various collections</p>
+            </div>
+
+            <div class="collapse collapse-plus bg-base-200 ">
+              <input type="radio" name="my-accordion-3" checked="checked" /> 
+              <div class="collapse-title text-xl font-medium">
+                How can I purchase?
+              </div>
+              <div class="collapse-content"> 
+                <p>hello</p>
+              </div>
+            </div>
+            <div class="collapse collapse-plus bg-base-200">
+              <input type="radio" name="my-accordion-3" /> 
+              <div class="collapse-title text-xl font-medium">              
+               What's the delivery system?
+              </div>
+              <div class="collapse-content"> 
+                <p>hello</p>
+              </div>
+            </div>
+            <div class="collapse collapse-plus bg-base-200">
+              <input type="radio" name="my-accordion-3" /> 
+              <div class="collapse-title text-xl font-medium">
+                What's the delivery system?
+              </div>
+              <div class="collapse-content"> 
+                <p>hello</p>
+              </div>
+            </div>
+
+          </section>
+          <!-- faq section end -->
+    </main>
+    
+      <footer>
+
+       <div class="footer p-10 bg-neutral text-neutral-content grid justify-items-center grid-cols-2 md:grid-cols-3 " >
+
+        <nav >
+          <header class="footer-title">Services</header> 
+          <a class="link link-hover">Branding</a>
+          <a class="link link-hover">Design</a>
+          <a class="link link-hover">Marketing</a>
+          <a class="link link-hover">Advertisement</a>
+        </nav> 
+        <nav>
+          <header class="footer-title">Company</header> 
+          <a class="link link-hover">About us</a>
+          <a class="link link-hover">Contact</a>
+          <a class="link link-hover">Jobs</a>
+          <a class="link link-hover">Press kit</a>
+        </nav> 
+        <nav>
+          <header class="footer-title">Legal</header> 
+          <a class="link link-hover">Terms of use</a>
+          <a class="link link-hover">Privacy policy</a>
+          <a class="link link-hover">Cookie policy</a>
+        </nav>
+
+       </div>
+
+      </footer>
+    
