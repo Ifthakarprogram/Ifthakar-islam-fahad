@@ -37,3 +37,71 @@ var inputNumber = 119;
 var saraAsked = 5;
 var sum = inputNumber % saraAsked;
 console.log(sum);
+
+
+
+// problem -1
+
+var fruitAll = ["apple", "banana", "orange"]
+var indexall = fruitAll.indexOf("banana");
+fruitAll[1] = "mango";
+fruitAll.pop();
+fruitAll.push("watermelon")
+console.log(indexall);
+console.log(fruitAll);
+
+// problem solving -2
+
+var jane = 95;
+var ifthakar = 85;
+var tom = 66;
+var afsana = 39;
+var peter = 56;
+var john = 40;
+
+
+if(80 <= jane , ifthakar){
+  console.log(" Ifthakar,Jane grade - A ");
+ 
+ };
+  if(tom >= 60){
+    console.log("Tom grade - B")
+ };
+  if(peter >= 50){
+    console.log("Pater grade - C")
+ };
+ if( john >= 40){
+    console.log("John grade - D")
+ };
+ if( afsana <= 40){
+    console.log("Afsana grade - F")
+ }
+ 
+// problem solved -3
+
+var first = 13;
+var second = 79;
+var third = 45;
+
+if( first,third < second){
+    console.log("Big number - 79")
+}
+else{
+    console.log("false")
+}
+
+
+var side1 = 8;
+var side2 = 9;
+var side3 = 8;
+
+if( side1 == side3 && side1,side3 < side2){
+    console.log("Equal triangle")
+}
+else{
+    console.log("false false")
+}
+
+var equalsum = side1 == side3;
+console.log(equalsum)
+
