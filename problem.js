@@ -109,7 +109,7 @@ console.log(equalsum)
 
 
 
-                           // ***sample note***
+                           // ***simple note***
                            
 
 
