@@ -105,3 +105,162 @@ else{
 var equalsum = side1 == side3;
 console.log(equalsum)
 
+
+
+
+
+                           // ***sample note***
+                           
+
+
+
+// string variable
+var bottle = "water";
+var bottleColor = "yellow";
+var penColor = "blue";
+
+// number variable
+var sunglassPrice = 120;
+
+// Boolean variable
+var isExpensive  = true;
+var bigMen = false;
+
+// array 
+     var tableItems = ["pen", "scale", "water", "note", "bag"];
+  
+    // array items content quary - ("pen", "scale", "water", "note")
+    var items4 = tableItems[4];
+  
+    // array content change
+    tableItems[2] = "book";
+
+    // array index serial number quary - (0,1,2,3,4,5)
+    var noteIndex = tableItems.indexOf("note");
+
+    // array push, pop, shift, unshift--
+    tableItems.push("penboxs");
+    tableItems.pop();
+    tableItems.shift();
+    tableItems.unshift("banana");
+
+    // array length
+    var lengthTable = tableItems.length;
+    tableItems.length = 1;
+
+
+//     // if, else if condition
+
+//     // problem see rigth now -upora problem solved daya acha if related soluation
+
+
+// while loop condition
+
+var rustGiven = 0;
+while( rustGiven < 7){
+     console.log("rust diban diban !!");
+     rustGiven ++;
+     console.log(rustGiven)
+}
+
+
+var cakeAll = 0;
+while( cakeAll <= 20){
+     console.log(cakeAll);
+     cakeAll = cakeAll + 2;
+}
+
+
+// for loop -- while ar update version
+
+
+for(var roastGiven = 0; roastGiven  < 10; roastGiven++){
+    console.log("roastGiven")
+}
+
+
+for(var i = 1; i < 20; i = i+2){
+    console.log(i)
+}
+
+for( var i = 1; i < 30; i += 2){
+     console.log(i)
+}
+
+// array ar --for loop
+
+var allprice = [19, 23, 38, 39, 89, 10, 40];
+for( var i = 0; i < 7; i++){
+     var num = allprice[i];
+     console.log(num)
+}
+
+
+var allprice = [19, 23, 38, 39, 89, 10, 40];
+for( var i = 0; i < 7; i++){
+     var num = allprice[i];
+     console.log(num)
+}
+
+var items = ["bottle", "pen", "orange", "mango", "apple", "note", "cakecup"];
+for( var i = 0; i < items.length; i++){
+     var num = items[i];
+     console.log(num)
+}
+
+var sectionName = ["blue", "red", "yellow", "green", "orange", "stillblue", "blueviolet"];
+for( var i = 0; i < sectionName.length; i++){
+     var colorName = sectionName[i];
+     console.log(colorName)
+}
+
+// for loop break and continue condition
+
+ 
+for (var i = 1; i <= 20; i++ ){
+     console.log(i);
+     if(i > 10){
+          break;
+     }
+ }
+ 
+var roustGiven = 0;
+while( roustGiven <= 10){
+     console.log("roustGiven");
+     roustGiven++;
+     if(roustGiven > 5){
+          break;
+     }
+}
+
+var items = ["bottle", "pen", "orange", "mango", "apple", "note", "cakecup"];
+for( var i = 0; i < items.length; i++){
+     var num = items[i];
+     if(num == "note"){
+          break;
+     }
+     console.log(num)
+}
+ 
+var allprice = [19, 23, 38, 39, 89, 10, 40];
+for( var i = 0; i < 7; i++){
+     var num = allprice[i];
+     if(num > 25){
+          continue;
+     }
+     console.log(num)
+}
+
+
+   
+
+
+
+
+
+
+
+
+
+
+ 
