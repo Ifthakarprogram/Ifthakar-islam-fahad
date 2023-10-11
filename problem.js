@@ -91,6 +91,30 @@ else{
 }
 
 
+
+var items1 = 13;
+var items2 = 79;
+var items3 = 100;
+
+if( items1 > items2){
+    if(items1 > items3){
+        console.log(items1)
+    }
+    else{
+        console.log(items3)
+    }
+}
+else{
+    if(items2 > items3){
+        console.log(items2)
+    }
+    else(
+        console.log(items3)
+    )
+}
+
+
+
 var side1 = 8;
 var side2 = 9;
 var side3 = 8;
@@ -251,7 +275,18 @@ for( var i = 0; i < 7; i++){
      console.log(num)
 }
 
+//for loop revers way condition
 
+for( var i = 15; i >= 1; i--){
+     console.log(i)
+ }
+ 
+ var reveresWay = 10;
+ while( reveresWay > 0){
+     console.log(reveresWay);
+     reveresWay--;
+ }
+ 
    
 
 
