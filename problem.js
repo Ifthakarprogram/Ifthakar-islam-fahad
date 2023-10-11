@@ -131,12 +131,64 @@ console.log(equalsum)
 
 
 
+// some small problem solving
+
+
+for(var i = 1; i <= 39; i++){
+     console.log("ajka amer mon balo nai")
+ }
+ 
+ for(var i = 58; i <= 98; i++){
+     console.log(i)
+ }
+ 
+ for(var i = 412; i <= 456; i+= 2 ){
+     console.log(i)
+ }
+ 
+ var even = 412;
+ while(even <= 456){
+     console.log(even);
+     even+=2;
+ }
+ for(var i = 581; i <= 623; i+=2){
+     console.log(i)
+ }
+ 
+ var learnWeb = ["html5", "css3", "tailwindcss", "wordpress", "javascript", "reactja", "nodejs"];
+ for(var i = 0; i < learnWeb.length; i++){
+     var sum = learnWeb[i];
+     console.log(sum)
+ }
+ 
+ for(var i = 30; i <= 86; i++){
+     console.log(i);
+     if( i > 43){
+         break;
+     }
+ }
+ 
+ var bookPrice = [100, 200, 300, 250, 70, 90, 120, 500, 1000, 550, 20, 300];
+ for(var i = 0; i < bookPrice.length; i++){
+     var sumAll = bookPrice[i];
+     if(sumAll > 200){
+         continue;
+     }
+     console.log(sumAll);
+     
+ }
+ 
+ 
+
+
 
 
                            // ***simple note***
+
+
                            
 
-
+// // shot hand - +=, -=, *=, /=, --, ++, ( %  bagshes)
 
 // string variable
 var bottle = "water";
